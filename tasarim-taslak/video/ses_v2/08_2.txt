@@ -1,0 +1,1 @@
+tr-TR-AhmetNeural|+5%|Eğitim verisinde hiç görülmemiş bir profil seçilirse Ayris, tahminin güvenilir olmadığını söylüyor.

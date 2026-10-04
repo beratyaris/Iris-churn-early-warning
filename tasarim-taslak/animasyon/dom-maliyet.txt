@@ -1,0 +1,73 @@
+stVerticalBlock #0
+  stElementContainer #0
+    stHtml #0
+      DIV .iris-head #0
+        DIV .iris-eyebrow #0
+        DIV .iris-title #1
+        DIV .iris-sub #2
+        DIV .iris-chip #1
+  stLayoutWrapper #1
+    stVerticalBlock .st-key-filterbar #0
+      stLayoutWrapper #0
+        stHorizontalBlock #0
+          stColumn #0
+            stVerticalBlock #0
+              stElementContainer .st-key-cost_fn #0
+                stNumberInput #0
+                  stWidgetLabel #0
+                  stNumberInputContainer #0
+          stColumn #1
+            stVerticalBlock #0
+              stElementContainer .st-key-cost_fp #0
+                stNumberInput #0
+                  stWidgetLabel #0
+                  stNumberInputContainer #0
+          stColumn #2
+            stVerticalBlock #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-sub #0
+  stElementContainer #2
+    stHtml #0
+      DIV .iris-section #0
+        DIV .iris-card-title #0
+        DIV .iris-card-sub #1
+  stElementContainer #3
+    stHtml #0
+      DIV .iris-kpis #0
+        DIV .iris-kpi #0
+        DIV .iris-kpi #1
+        DIV .iris-kpi #2
+        DIV .iris-kpi #3
+  stLayoutWrapper #4
+    stVerticalBlock .st-key-card-cost #0
+      stLayoutWrapper #0
+        stHorizontalBlock #0
+          stColumn #0
+            stVerticalBlock #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-title #0
+                  DIV .iris-card-sub #1
+          stColumn #1
+            stVerticalBlock #0
+              stElementContainer .st-key-apply_opt #0
+                stButton #0
+                  stTooltipIcon #0
+                  stBaseButton-primary #0
+      stElementContainer .st-key-cost-curve #1
+        stFullScreenFrame #0
+          stPlotlyChart #0
+      stElementContainer #2
+        stMarkdown #0
+          stCaptionContainer #0
+  stLayoutWrapper #5
+    stVerticalBlock .st-key-card-table #0
+      stElementContainer #0
+        stHtml #0
+          DIV .iris-card-title #0
+          DIV .iris-card-sub #1
+      stElementContainer #1
+        stHtml #0
+          DIV .iris-table-wrap #0
+            TABLE .iris-table #0

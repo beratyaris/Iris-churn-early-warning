@@ -1,0 +1,129 @@
+{
+  "toplam": 154.9,
+  "ses": "tr-TR-AhmetNeural",
+  "hiz": "+5%",
+  "sahneler": [
+    {
+      "id": "01",
+      "start": 0.0,
+      "dur": 17.13,
+      "ses": 17.13,
+      "band": null,
+      "not": "kart sonu 6.1 sn uzatıldı (durağan)"
+    },
+    {
+      "id": "01b",
+      "start": 17.13,
+      "dur": 9.77,
+      "ses": 3.8,
+      "band": "Giriş · beklenen churn ve uyarı listesi tek ekranda",
+      "not": "açılış durması −0.9 sn"
+    },
+    {
+      "id": "02",
+      "start": 26.9,
+      "dur": 14.6,
+      "ses": 14.61,
+      "band": "Genel Bakış · 10.000 müşteri · churn %20,4",
+      "not": "durma +2.6 sn @ 12.0"
+    },
+    {
+      "id": "03",
+      "start": 41.5,
+      "dur": 13.4,
+      "ses": 13.39,
+      "band": "Model Karşılaştırma · SMOTE-NC · McNemar + Holm",
+      "not": "durma +0.4 sn @ 2.4"
+    },
+    {
+      "id": "04",
+      "start": 54.9,
+      "dur": 16.43,
+      "ses": 14.96,
+      "band": "Eşik: 0,21 · maliyete duyarlı · recall %82",
+      "not": "açılış durması −0.5 sn; son durma −0.8 sn"
+    },
+    {
+      "id": "05",
+      "start": 71.33,
+      "dur": 14.73,
+      "ses": 14.15,
+      "band": "Kalibrasyon · Brier 0,1041 → 0,1011",
+      "not": "açılış durması −0.4 sn; son durma −0.2 sn"
+    },
+    {
+      "id": "06",
+      "start": 86.07,
+      "dur": 15.13,
+      "ses": 12.04,
+      "band": "Risk Skoru ve Açıklanabilirlik · SHAP",
+      "not": "açılış durması −0.7 sn; son durma −0.7 sn"
+    },
+    {
+      "id": "07",
+      "start": 101.2,
+      "dur": 11.5,
+      "ses": 11.43,
+      "band": "Confounding · ilişki, nedensellik değil",
+      "not": "açılış durması −0.4 sn; son durma −0.8 sn"
+    },
+    {
+      "id": "08",
+      "start": 112.7,
+      "dur": 15.2,
+      "ses": 10.86,
+      "band": "Simülatör · eğitimde görülmemiş profil uyarısı",
+      "not": "açılış durması −0.3 sn; son durma −0.4 sn"
+    },
+    {
+      "id": "09",
+      "start": 127.9,
+      "dur": 12.6,
+      "ses": 10.47,
+      "band": "Kampanya Planlayıcı · kalibre olasılıklarla net fayda",
+      "not": "açılış durması −0.5 sn; son durma −1.0 sn"
+    },
+    {
+      "id": "10",
+      "start": 140.5,
+      "dur": 7.9,
+      "ses": 4.74,
+      "band": "Sunum Modu · tek hikâye",
+      "not": "açılış durması −0.8 sn; son durma −0.5 sn"
+    },
+    {
+      "id": "11",
+      "start": 148.4,
+      "dur": 6.5,
+      "ses": 3.62,
+      "band": null,
+      "not": "kart sonu kısaltıldı"
+    }
+  ],
+  "dosyalar": {
+    "iris-tanitim-v2.mp4": {
+      "MiB": 24.49,
+      "sure": 154.9,
+      "cozumleme_hatasiz": true,
+      "hata": ""
+    },
+    "iris-tanitim-v2-altyazili.mp4": {
+      "MiB": 25.9,
+      "sure": 154.9,
+      "cozumleme_hatasiz": true,
+      "hata": ""
+    },
+    "iris-tanitim-v2-720.mp4": {
+      "MiB": 8.76,
+      "sure": 154.9,
+      "cozumleme_hatasiz": true,
+      "hata": ""
+    },
+    "iris-tanitim-v2-altyazili-720.mp4": {
+      "MiB": 8.73,
+      "sure": 154.9,
+      "cozumleme_hatasiz": true,
+      "hata": ""
+    }
+  }
+}

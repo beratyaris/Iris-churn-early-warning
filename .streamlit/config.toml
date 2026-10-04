@@ -1,0 +1,42 @@
+# Iris teması: açık ve koyu. İkisi de tanımlı olduğu için Streamlit varsayılan olarak
+# sistem temasını izler. Kullanıcı uygulamadaki "Tema: Sistem / Açık / Koyu" denetimiyle
+# (kenar çubuğunun altı, giriş sayfasında sağ üst) ya da ⋮ menüsü > Settings'ten değiştirir.
+[theme]
+primaryColor = "#14B8A6"
+linkColor = "#0F766E"
+baseRadius = "0.75rem"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+codeFont = "monospace"
+showSidebarBorder = true
+
+[theme.light]
+primaryColor = "#14B8A6"
+backgroundColor = "#F7FAFC"
+secondaryBackgroundColor = "#EAF4F4"
+textColor = "#1E3A5F"
+borderColor = "#E3EAF1"
+linkColor = "#0F766E"
+
+[theme.light.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F7F7"
+
+[theme.dark]
+primaryColor = "#14B8A6"
+backgroundColor = "#0D1929"
+secondaryBackgroundColor = "#1C2F46"
+textColor = "#E8EFF6"
+borderColor = "#24374F"
+linkColor = "#2DD4BF"
+
+[theme.dark.sidebar]
+backgroundColor = "#14253A"
+secondaryBackgroundColor = "#1C2F46"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# "viewer": sağ üstteki ⋮ menüsü görünür (Settings > tema dahil), Deploy ve geliştirici
+# seçenekleri gizli. ("minimal" menüyü tamamen gizliyordu.)
+toolbarMode = "viewer"

@@ -1,0 +1,20 @@
+# Python 3.13 ile test edildi (Windows 11; Python 3.13.15).
+# Sürümler projenin .venv ortamındaki kurulu sürümlere sabitlendi.
+# pandas, scikit-learn ve scipy bilinçli olarak sabitlendi: daha yeni sürümlerin (pandas 3.0.6,
+# scikit-learn 1.9.1, scipy 1.18.1) bazı DLL'leri Windows Akıllı Uygulama Denetimi tarafından engellendi.
+# artifacts/models.joblib bu sürümlerle kaydedildi; farklı scikit-learn / imbalanced-learn / xgboost
+# sürümleri modeli açamayabilir.
+pandas==2.3.3
+numpy==2.5.3
+scikit-learn==1.7.2
+imbalanced-learn==0.14.2
+xgboost==3.4.1
+# shap==0.52.0 ÇIKARILDI (2026-10-02): shap -> numba içe aktarımı Akıllı Uygulama Denetimi'ne takılıyor
+# (numba\_devicearray .pyd engelleniyor). SHAP değerleri artık XGBoost'un yerleşik TreeSHAP'i
+# (pred_contribs) ile hesaplanıyor; aynı sonuç, bkz. iris_shap.py.
+streamlit==1.64.0
+statsmodels==0.15.0
+joblib==1.6.0
+scipy==1.17.1
+plotly==7.1.0
+# matplotlib ÇIKARILDI (2026-10-04): kodda hiçbir yerde içe aktarılmıyor.

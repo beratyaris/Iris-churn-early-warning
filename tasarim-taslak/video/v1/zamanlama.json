@@ -1,0 +1,84 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+5%",
+  "total": 124.19,
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "dur": 10.22,
+      "band": null,
+      "kind": "kart"
+    },
+    {
+      "id": 2,
+      "start": 10.22,
+      "dur": 14.61,
+      "band": "Genel Bakış · 10.000 müşteri · churn %20,4",
+      "kind": "ekran"
+    },
+    {
+      "id": 3,
+      "start": 24.83,
+      "dur": 12.85,
+      "band": "Model Karşılaştırma · SMOTE-NC · McNemar + Holm",
+      "kind": "ekran"
+    },
+    {
+      "id": 4,
+      "start": 37.68,
+      "dur": 14.96,
+      "band": "Eşik: 0,21 · maliyete duyarlı",
+      "kind": "ekran"
+    },
+    {
+      "id": 5,
+      "start": 52.64,
+      "dur": 14.03,
+      "band": "Kalibrasyon · olasılıklar gerçek oranla örtüşüyor",
+      "kind": "ekran"
+    },
+    {
+      "id": 6,
+      "start": 66.67,
+      "dur": 11.91,
+      "band": "Açıklanabilirlik · SHAP",
+      "kind": "ekran"
+    },
+    {
+      "id": 7,
+      "start": 78.58,
+      "dur": 11.43,
+      "band": "Confounding · ilişki, nedensellik değil",
+      "kind": "ekran"
+    },
+    {
+      "id": 8,
+      "start": 90.01,
+      "dur": 10.71,
+      "band": "Simülatör · eğitimde görülmemiş profil uyarısı",
+      "kind": "ekran"
+    },
+    {
+      "id": 9,
+      "start": 100.72,
+      "dur": 10.47,
+      "band": "Kampanya Planlayıcı · kalibre olasılıklarla net fayda",
+      "kind": "ekran"
+    },
+    {
+      "id": 10,
+      "start": 111.19,
+      "dur": 7.0,
+      "band": "Sunum Modu · tek hikâye",
+      "kind": "ekran"
+    },
+    {
+      "id": 11,
+      "start": 118.19,
+      "dur": 6.0,
+      "band": null,
+      "kind": "kart"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+stVerticalBlock #0
+  stElementContainer #0
+    stHtml #0
+      DIV .iris-head #0
+        DIV .iris-eyebrow #0
+        DIV .iris-title #1
+        DIV .iris-sub #2
+        DIV .iris-chip #1
+  stLayoutWrapper #1
+    stVerticalBlock .st-key-filterbar #0
+      stLayoutWrapper #0
+        stHorizontalBlock #0
+          stColumn #0
+            stVerticalBlock #0
+              stElementContainer .st-key-f_country #0
+                stButtonGroup #0
+                  stWidgetLabel #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+          stColumn #1
+            stVerticalBlock #0
+              stElementContainer .st-key-f_gender #0
+                stButtonGroup #0
+                  stWidgetLabel #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+          stColumn #2
+            stVerticalBlock #0
+              stElementContainer .st-key-f_products #0
+                stButtonGroup #0
+                  stWidgetLabel #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+          stColumn #3
+            stVerticalBlock #0
+              stElementContainer .st-key-f_member #0
+                stButtonGroup #0
+                  stWidgetLabel #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+          stColumn #4
+            stVerticalBlock #0
+              stElementContainer .st-key-f_balance #0
+                stButtonGroup #0
+                  stWidgetLabel #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+                  stMarkdownContainer #0
+  stElementContainer #2
+    stHtml #0
+      DIV .iris-kpis #0
+        DIV .iris-kpi #0
+        DIV .iris-kpi #1
+        DIV .iris-kpi #2
+        DIV .iris-kpi #3
+  stElementContainer #3
+    stHtml #0
+      DIV .iris-section #0
+        DIV .iris-card-title #0
+        DIV .iris-card-sub #1
+        DIV .iris-scale #1
+  stLayoutWrapper #4
+    stHorizontalBlock #0
+      stColumn #0
+        stVerticalBlock #0
+          stLayoutWrapper #0
+            stVerticalBlock .st-key-card-country #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-title #0
+                  DIV .iris-card-sub #1
+              stElementContainer .st-key-bar-country #1
+                stFullScreenFrame #0
+                  stPlotlyChart #0
+      stColumn #1
+        stVerticalBlock #0
+          stLayoutWrapper #0
+            stVerticalBlock .st-key-card-gender #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-title #0
+                  DIV .iris-card-sub #1
+              stElementContainer .st-key-bar-gender #1
+                stFullScreenFrame #0
+                  stPlotlyChart #0
+      stColumn #2
+        stVerticalBlock #0
+          stLayoutWrapper #0
+            stVerticalBlock .st-key-card-member #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-title #0
+                  DIV .iris-card-sub #1
+              stElementContainer .st-key-bar-member #1
+                stFullScreenFrame #0
+                  stPlotlyChart #0
+  stLayoutWrapper #5
+    stHorizontalBlock #0
+      stColumn #0
+        stVerticalBlock #0
+          stLayoutWrapper #0
+            stVerticalBlock .st-key-card-age_group #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-title #0
+                  DIV .iris-card-sub #1
+              stElementContainer .st-key-bar-age_group #1
+                stFullScreenFrame #0
+                  stPlotlyChart #0
+      stColumn #1
+        stVerticalBlock #0
+          stLayoutWrapper #0
+            stVerticalBlock .st-key-card-products_number #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-title #0
+                  DIV .iris-card-sub #1
+              stElementContainer .st-key-bar-products_number #1
+                stFullScreenFrame #0
+                  stPlotlyChart #0
+      stColumn #2
+        stVerticalBlock #0
+          stLayoutWrapper #0
+            stVerticalBlock .st-key-card-has_bal #0
+              stElementContainer #0
+                stHtml #0
+                  DIV .iris-card-title #0
+                  DIV .iris-card-sub #1
+              stElementContainer .st-key-bar-has_bal #1
+                stFullScreenFrame #0
+                  stPlotlyChart #0
+  stLayoutWrapper #6
+    stVerticalBlock .st-key-card-age-dist #0
+      stElementContainer #0
+        stHtml #0
+          DIV .iris-card-title #0
+          DIV .iris-card-sub #1
+      stElementContainer .st-key-age-dist #1
+        stFullScreenFrame #0
+          stPlotlyChart #0
+  stElementContainer #7
+    stMarkdown #0
+      stCaptionContainer #0

@@ -1,0 +1,90 @@
+{
+  "not": "Sessiz önizleme taslağı; final süreler onaylı seslendirmeye göre yeniden ayarlanacak.",
+  "toplam": 165.82,
+  "sahneler": [
+    {
+      "id": "01",
+      "start": 0.0,
+      "dur": 11.04,
+      "band": null,
+      "segments": 1
+    },
+    {
+      "id": "01b",
+      "start": 11.04,
+      "dur": 10.62,
+      "band": "Giriş · beklenen churn ve uyarı listesi tek ekranda",
+      "segments": 1
+    },
+    {
+      "id": "02",
+      "start": 21.66,
+      "dur": 16.11,
+      "band": "Genel Bakış · 10.000 müşteri · churn %20,4",
+      "segments": 1
+    },
+    {
+      "id": "03",
+      "start": 37.77,
+      "dur": 15.06,
+      "band": "Model Karşılaştırma · SMOTE-NC · McNemar + Holm",
+      "segments": 1
+    },
+    {
+      "id": "04",
+      "start": 52.83,
+      "dur": 17.69,
+      "band": "Eşik: 0,21 · maliyete duyarlı · recall %82",
+      "segments": 1
+    },
+    {
+      "id": "05",
+      "start": 70.52,
+      "dur": 18.63,
+      "band": "Kalibrasyon · Brier 0,1041 → 0,1011",
+      "segments": 1
+    },
+    {
+      "id": "06",
+      "start": 89.15,
+      "dur": 17.54,
+      "band": "Risk Skoru ve Açıklanabilirlik · SHAP",
+      "segments": 2
+    },
+    {
+      "id": "07",
+      "start": 106.69,
+      "dur": 12.64,
+      "band": "Confounding · ilişki, nedensellik değil",
+      "segments": 1
+    },
+    {
+      "id": "08",
+      "start": 119.33,
+      "dur": 16.56,
+      "band": "Simülatör · eğitimde görülmemiş profil uyarısı",
+      "segments": 1
+    },
+    {
+      "id": "09",
+      "start": 135.89,
+      "dur": 14.13,
+      "band": "Kampanya Planlayıcı · kalibre olasılıklarla net fayda",
+      "segments": 1
+    },
+    {
+      "id": "10",
+      "start": 150.02,
+      "dur": 9.27,
+      "band": "Sunum Modu · tek hikâye",
+      "segments": 1
+    },
+    {
+      "id": "11",
+      "start": 159.29,
+      "dur": 6.53,
+      "band": null,
+      "segments": 1
+    }
+  ]
+}

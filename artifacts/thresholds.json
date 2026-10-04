@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "feature_names": [
+    "credit_score",
+    "age",
+    "tenure",
+    "balance",
+    "products_number",
+    "credit_card",
+    "active_member",
+    "estimated_salary",
+    "has_balance",
+    "balance_salary_ratio",
+    "country_Germany",
+    "country_Spain",
+    "gender_Male"
+  ],
+  "lr": {
+    "threshold": 0.21,
+    "val_f2": 0.6241058655221745
+  },
+  "rf": {
+    "threshold": 0.25,
+    "val_f2": 0.7018959257765228
+  },
+  "xgb": {
+    "threshold": 0.21,
+    "val_f2": 0.6973355537052456
+  }
+}

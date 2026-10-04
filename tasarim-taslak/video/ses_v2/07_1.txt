@@ -1,0 +1,1 @@
+tr-TR-AhmetNeural|+5%|Almanya'daki yüksek terk oranının bakiye farkından kaynaklanıp kaynaklanmadığını da test ettik.

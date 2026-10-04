@@ -1,0 +1,140 @@
+1
+00:00:00,400 --> 00:00:00,980
+Bu Iris.
+
+2
+00:00:01,430 --> 00:00:05,804
+Adını, Yunan mitolojisinde haber getiren tanrıçadan ve gözün irisinden alıyor:
+
+3
+00:00:05,804 --> 00:00:07,150
+gören ve önceden uyaran.
+
+4
+00:00:07,600 --> 00:00:12,020
+Banka müşterilerinin ayrılma riskini önceden tespit eden bir erken uyarı sistemi.
+
+5
+00:00:12,470 --> 00:00:16,430
+Çanakkale Onsekiz Mart Üniversitesi İstatistik Bölümü bitirme projesi.
+
+6
+00:00:17,533 --> 00:00:20,233
+Giriş ekranından tüm analizlere tek tıkla ulaşılıyor.
+
+7
+00:00:27,300 --> 00:00:30,990
+On bin müşterilik bir banka verisinde her beş müşteriden biri ayrılmış.
+
+8
+00:00:31,440 --> 00:00:34,013
+Bu dengesizlik yüzünden 'herkes kalacak' diyen
+
+9
+00:00:34,013 --> 00:00:36,530
+bir model bile yüzde seksen başarılı görünür.
+
+10
+00:00:36,980 --> 00:00:40,810
+Bu yüzden başarıyı doğrulukla değil, ayrılanları yakalama oranıyla ölçtük.
+
+11
+00:00:41,900 --> 00:00:45,710
+Lojistik regresyon, random forest ve XGBoost'u karşılaştırdık.
+
+12
+00:00:46,160 --> 00:00:49,410
+Azınlık sınıfını öğrenmek için eğitimde SMOTE-NC kullandık.
+
+13
+00:00:49,860 --> 00:00:54,190
+Farkların tesadüf olmadığını McNemar testi ve Holm düzeltmesiyle sınadık.
+
+14
+00:00:55,300 --> 00:00:58,140
+Karar eşiğini varsayılan 0,50'de bırakmadık.
+
+15
+00:00:58,590 --> 00:01:01,390
+Bir müşteriyi kaçırmanın yanlış alarmdan daha
+
+16
+00:01:01,390 --> 00:01:04,190
+pahalı olduğu varsayımıyla eşiği 0,21 seçtik.
+
+17
+00:01:04,640 --> 00:01:09,160
+Sonuç: test verisinde ayrılan her on müşteriden sekizi önceden işaretleniyor.
+
+18
+00:01:11,733 --> 00:01:13,213
+SMOTE olasılıkları şişirir.
+
+19
+00:01:13,663 --> 00:01:14,421
+Kalibrasyonla,
+
+20
+00:01:14,421 --> 00:01:19,993
+modelin 'yüzde otuz' dediği müşterilerin gerçekten yaklaşık yüzde otuzunun ayrıldığı bir ölçeğe geçtik.
+
+21
+00:01:20,443 --> 00:01:24,783
+Böylece Iris yalnızca kimin değil, kaç kişinin gideceğini de söyleyebiliyor.
+
+22
+00:01:26,467 --> 00:01:29,887
+Iris yalnızca 'riskli' demiyor, nedenini de gösteriyor.
+
+23
+00:01:30,337 --> 00:01:34,477
+SHAP ile her müşteride riski hangi özelliklerin artırıp azalttığı görülüyor.
+
+24
+00:01:34,927 --> 00:01:37,407
+Modelin genelinde en belirleyici değişken yaş.
+
+25
+00:01:41,600 --> 00:01:44,180
+Almanya'daki yüksek terk oranının bakiye farkından
+
+26
+00:01:44,180 --> 00:01:46,450
+kaynaklanıp kaynaklanmadığını da test ettik.
+
+27
+00:01:46,900 --> 00:01:48,940
+Bakiye kontrol edildiğinde fark sürüyor.
+
+28
+00:01:49,390 --> 00:01:51,930
+Bu bir ilişki, nedensellik iddiası değil.
+
+29
+00:01:53,100 --> 00:01:57,000
+Simülatörde müşteri profili değiştirildiğinde tahmin anında güncelleniyor.
+
+30
+00:01:57,450 --> 00:02:00,685
+Eğitim verisinde hiç görülmemiş bir profil seçilirse Iris,
+
+31
+00:02:00,685 --> 00:02:02,860
+tahminin güvenilir olmadığını söylüyor.
+
+32
+00:02:08,300 --> 00:02:12,670
+Kampanya planlayıcı, kalibre olasılıklarla bütçeyi somut bir karara çeviriyor.
+
+33
+00:02:13,120 --> 00:02:17,670
+Varsayımlar değiştikçe kaç müşteriye ulaşmanın en kârlı olduğu yeniden hesaplanıyor.
+
+34
+00:02:20,900 --> 00:02:24,540
+Ve tüm bu adımlar, Sunum Modunda tek bir hikâye olarak anlatılıyor.
+
+35
+00:02:28,800 --> 00:02:31,320
+Iris. Veriden karara.
+

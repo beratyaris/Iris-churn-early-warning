@@ -1,0 +1,197 @@
+{
+  "seed": 42,
+  "cost_fn": 5,
+  "cost_fp": 1,
+  "note": "Eşikler validation'da seçildi; metrikler test setinde. Brier/ortalama ham olasılık.",
+  "sanity_check": {
+    "lr": {
+      "max_abs_proba_diff": 1.6653345369377348e-16,
+      "threshold_now": 0.21,
+      "threshold_artifact": 0.21,
+      "reproduced": true
+    },
+    "rf": {
+      "max_abs_proba_diff": 3.3306690738754696e-16,
+      "threshold_now": 0.25,
+      "threshold_artifact": 0.25,
+      "reproduced": true
+    },
+    "xgb": {
+      "max_abs_proba_diff": 2.9666900602798307e-08,
+      "threshold_now": 0.21,
+      "threshold_artifact": 0.21,
+      "reproduced": true
+    }
+  },
+  "results": {
+    "lr": {
+      "smote": {
+        "val_f2": 0.6241058655221745,
+        "f2_threshold": {
+          "threshold": 0.21,
+          "recall": 0.8402948402948403,
+          "precision": 0.29559204840103714,
+          "f2": 0.6140035906642729,
+          "fn": 65,
+          "fp": 815,
+          "cost": 1140
+        },
+        "cost_threshold": {
+          "threshold": 0.28,
+          "recall": 0.7616707616707616,
+          "precision": 0.35267349260523323,
+          "f2": 0.6182688472277623,
+          "fn": 97,
+          "fp": 569,
+          "cost": 1054
+        },
+        "roc_auc": 0.7650855786449008,
+        "pr_auc": 0.47994414042277445,
+        "mean_pred": 0.2995276665389623,
+        "actual_rate": 0.2035,
+        "brier": 0.14652417046413396
+      },
+      "no_smote": {
+        "val_f2": 0.6167706167706167,
+        "f2_threshold": {
+          "threshold": 0.11,
+          "recall": 0.8869778869778869,
+          "precision": 0.2785493827160494,
+          "f2": 0.6173050615595075,
+          "fn": 46,
+          "fp": 935,
+          "cost": 1165
+        },
+        "cost_threshold": {
+          "threshold": 0.19,
+          "recall": 0.7321867321867321,
+          "precision": 0.3669950738916256,
+          "f2": 0.610655737704918,
+          "fn": 109,
+          "fp": 514,
+          "cost": 1059
+        },
+        "roc_auc": 0.7745249101181304,
+        "pr_auc": 0.48178961752667787,
+        "mean_pred": 0.20284138347467062,
+        "actual_rate": 0.2035,
+        "brier": 0.13455227496917932
+      }
+    },
+    "rf": {
+      "smote": {
+        "val_f2": 0.7018959257765228,
+        "f2_threshold": {
+          "threshold": 0.25,
+          "recall": 0.8402948402948403,
+          "precision": 0.4028268551236749,
+          "f2": 0.6903512313282196,
+          "fn": 65,
+          "fp": 507,
+          "cost": 832
+        },
+        "cost_threshold": {
+          "threshold": 0.25,
+          "recall": 0.8402948402948403,
+          "precision": 0.4028268551236749,
+          "f2": 0.6903512313282196,
+          "fn": 65,
+          "fp": 507,
+          "cost": 832
+        },
+        "roc_auc": 0.8630433206704393,
+        "pr_auc": 0.6892386005946506,
+        "mean_pred": 0.2710348327642593,
+        "actual_rate": 0.2035,
+        "brier": 0.1111371758389912
+      },
+      "no_smote": {
+        "val_f2": 0.6994489190334887,
+        "f2_threshold": {
+          "threshold": 0.19,
+          "recall": 0.8132678132678133,
+          "precision": 0.4442953020134228,
+          "f2": 0.6974294142435735,
+          "fn": 76,
+          "fp": 414,
+          "cost": 794
+        },
+        "cost_threshold": {
+          "threshold": 0.21,
+          "recall": 0.7813267813267813,
+          "precision": 0.4789156626506024,
+          "f2": 0.693717277486911,
+          "fn": 89,
+          "fp": 346,
+          "cost": 791
+        },
+        "roc_auc": 0.8657270521677302,
+        "pr_auc": 0.7059981173361028,
+        "mean_pred": 0.20441513638330694,
+        "actual_rate": 0.2035,
+        "brier": 0.10400015547239644
+      }
+    },
+    "xgb": {
+      "smote": {
+        "val_f2": 0.6973355537052456,
+        "f2_threshold": {
+          "threshold": 0.21,
+          "recall": 0.8206388206388207,
+          "precision": 0.4343302990897269,
+          "f2": 0.6967042136003337,
+          "fn": 73,
+          "fp": 435,
+          "cost": 800
+        },
+        "cost_threshold": {
+          "threshold": 0.21,
+          "recall": 0.8206388206388207,
+          "precision": 0.4343302990897269,
+          "f2": 0.6967042136003337,
+          "fn": 73,
+          "fp": 435,
+          "cost": 800
+        },
+        "roc_auc": 0.8659830863220694,
+        "pr_auc": 0.7113208807532292,
+        "mean_pred": 0.24432694911956787,
+        "actual_rate": 0.2035,
+        "brier": 0.10411782439029775
+      },
+      "no_smote": {
+        "val_f2": 0.7013096746937051,
+        "f2_threshold": {
+          "threshold": 0.16,
+          "recall": 0.800982800982801,
+          "precision": 0.4358288770053476,
+          "f2": 0.686026936026936,
+          "fn": 81,
+          "fp": 422,
+          "cost": 827
+        },
+        "cost_threshold": {
+          "threshold": 0.16,
+          "recall": 0.800982800982801,
+          "precision": 0.4358288770053476,
+          "f2": 0.686026936026936,
+          "fn": 81,
+          "fp": 422,
+          "cost": 827
+        },
+        "roc_auc": 0.8617091667939125,
+        "pr_auc": 0.7077431495006591,
+        "mean_pred": 0.202203631401062,
+        "actual_rate": 0.2035,
+        "brier": 0.10159075426394082
+      }
+    }
+  },
+  "mcnemar_xgb": {
+    "comparison": "XGBoost SMOTE-NC vs SMOTE'suz (kendi F2 eşikleri)",
+    "only_smote_correct": 63,
+    "only_no_smote_correct": 68,
+    "statistic": 0.12213740458015267,
+    "p": 0.7267277651074049
+  }
+}

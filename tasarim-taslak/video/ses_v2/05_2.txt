@@ -1,0 +1,1 @@
+tr-TR-AhmetNeural|+5%|Kalibrasyonla, modelin 'yüzde otuz' dediği müşterilerin gerçekten yaklaşık yüzde otuzunun ayrıldığı bir ölçeğe geçtik.

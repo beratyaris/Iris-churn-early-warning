@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Iris">
+  <title>Iris - i monogramı</title>
+  <rect class="tile" width="64" height="64" rx="15" fill="#1E3A5F"/>
+  <!-- stem -->
+  <path class="stem" d="M25 41.5V51.5" fill="none" stroke="#F7FAFC" stroke-width="9.5" stroke-linecap="round"/>
+  <!-- coral signal dot -->
+  <circle cx="25" cy="27" r="6" fill="#FF7A59"/>
+  <!-- warning pulses -->
+  <g fill="none" stroke="#FF7A59" stroke-width="4" stroke-linecap="round">
+    <path d="M28.40 16.54A11 11 0 0 1 35.46 23.60"/>
+    <path d="M31.03 8.45A19.5 19.5 0 0 1 43.55 20.97"/>
+  </g>
+</svg>

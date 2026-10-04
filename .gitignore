@@ -1,0 +1,76 @@
+# ------------------------------------------------------------
+# Iris - churn early warning: files that are NOT uploaded to GitHub
+# Everything else in this folder (code, data, model artifacts, logo,
+# screenshots, design drafts, literature, backups) IS uploaded.
+# ------------------------------------------------------------
+
+# --- Python virtual environments (each computer creates its own) ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Python cache / build ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Operating system ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+._*
+# Office lock files (created while a .docx/.pptx is open)
+~$*
+
+# --- Secrets / keys ---
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+.streamlit/secrets.toml
+secrets.*
+credentials*.json
+
+# --- Video, audio and large media (demo video goes to GitHub Releases) ---
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+
+# --- Temporary render files of the video pipeline ---
+tasarim-taslak/video/**/tmp/
+tasarim-taslak/video/**/_tmp/
+
+# --- Logs / temp ---
+*.log
+*.tmp

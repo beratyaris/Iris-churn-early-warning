@@ -1,0 +1,15 @@
+# Python 3.13 ile test edildi (Windows 11).
+# pandas ve scikit-learn bilinçli olarak sabitlendi: daha yeni sürümlerin (pandas 3.0.6,
+# scikit-learn 1.9.1) bazı DLL'leri Windows Akıllı Uygulama Denetimi tarafından engellendi.
+pandas==2.3.3
+numpy==2.5.3
+scikit-learn==1.7.2
+imbalanced-learn==0.14.2
+xgboost==3.4.1
+shap==0.52.0
+streamlit==1.64.0
+statsmodels==0.15.0
+matplotlib==3.11.2
+joblib==1.6.0
+scipy==1.18.1
+plotly==7.1.0

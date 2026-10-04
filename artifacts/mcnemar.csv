@@ -1,0 +1,4 @@
+Karşılaştırma,Yalnız 1. doğru,Yalnız 2. doğru,İstatistik,p,p (Holm),Sonuç (α=0.05)
+Lojistik Regresyon vs Random Forest,104,412,182.6531007751938,1.276919881274234e-41,2.553839762548468e-41,Anlamlı fark
+Lojistik Regresyon vs XGBoost,97,469,243.18197879858658,7.959957283951883e-55,2.3879871851855652e-54,Anlamlı fark
+Random Forest vs XGBoost,49,113,24.5,7.430983723414125e-07,7.430983723414125e-07,Anlamlı fark

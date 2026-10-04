@@ -1,0 +1,22 @@
+# Iris teması (varsayılan açık tema)
+[theme]
+base = "light"
+primaryColor = "#14B8A6"
+backgroundColor = "#F7FAFC"
+secondaryBackgroundColor = "#EAF4F4"
+textColor = "#1E3A5F"
+borderColor = "#E3EAF1"
+linkColor = "#0F766E"
+baseRadius = "0.75rem"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+codeFont = "monospace"
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F7F7"
+
+[browser]
+gatherUsageStats = false
+[client]
+toolbarMode = "minimal"

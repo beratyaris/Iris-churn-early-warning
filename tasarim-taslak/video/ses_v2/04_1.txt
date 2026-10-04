@@ -1,0 +1,1 @@
+tr-TR-AhmetNeural|+5%|Karar eşiğini varsayılan sıfır virgül ellide bırakmadık.
