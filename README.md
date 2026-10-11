@@ -7,6 +7,8 @@
 
 # Iris: Bank Customer Churn Early-Warning System
 
+**Live demo:** https://iris-churn.streamlit.app
+
 > **Türkçe özet.** Iris, bir bankanın hangi müşterilerinin ayrılma (churn) riski taşıdığını önceden
 > gösteren, bu tahmini açıklayan ve maliyete göre karar vermeye yardım eden bir erken uyarı
 > panelidir. 10.000 müşterilik Kaggle verisinde Lojistik Regresyon, Random Forest ve XGBoost
