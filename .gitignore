@@ -70,6 +70,11 @@ credentials*.json
 # --- Temporary render files of the video pipeline ---
 tasarim-taslak/video/**/tmp/
 tasarim-taslak/video/**/_tmp/
+# v3 (HyperFrames): node bağımlılıkları, TTS ara dosyaları, render ara dosyaları
+tasarim-taslak/video-hf/node_modules/
+tasarim-taslak/video-hf/ses/
+tasarim-taslak/video-hf/renders/
+tasarim-taslak/video-hf/snapshots/
 
 # --- Logs / temp ---
 *.log

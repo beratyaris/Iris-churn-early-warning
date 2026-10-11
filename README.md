@@ -146,6 +146,17 @@ training is optional. To reproduce everything from scratch:
 .\.venv\Scripts\python.exe smoke_test.py            # optional: runs every page headlessly
 ```
 
+## Deploying to Streamlit Community Cloud
+
+On <https://share.streamlit.io> choose **Create app → Deploy a public app from GitHub**, then:
+
+- Repository: this repo, branch `main`
+- Main file path: `app.py`
+- Advanced settings → Python version: **3.13** (the pinned versions in `requirements.txt` match the
+  saved models in `artifacts/`)
+
+No secrets are needed; the dataset and trained models are included in the repository.
+
 ## Method summary
 
 - `customer_id` is not a model input. One-hot encoding: `country` (reference France), `gender`
